@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra&family=Archivo+Black&family=Lobster&family=Lugrasimo&family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.img {
+  height: 500px;
+  width: 500px;
+}
+
+.tit {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(87, 33, 92, 0.357);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.tit::first-letter {
+  font-size: 50px;
+}
+
+.lnk {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#lk {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: pink;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: paleturquoise;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#about {
+  padding-top: 40px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+#about p {
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+#lk:hover {
+  background-color: rgb(182, 158, 22);
+  border: 1px solid rgb(18, 73, 136);
+  color: rgb(124, 61, 61);
+}
+.ig {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 30px auto;
+  border: 1px solid rgba(245, 141, 141, 0.339);
+  padding: 10px;
+  overflow: hidden;
+}
+#tour h2 {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: rgba(14, 179, 115, 0.526);
+}
+.he {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.h h4 {
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+#footer {
+  background-color: rgb(63, 8, 8);
+  color: rgba(255, 255, 255, 0.507);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  line-height: 50px;
+}
+#footer h2 {
+  font-size: 20px;
+}
